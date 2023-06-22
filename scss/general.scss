@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,400&display=swap');
+
+$white: white;
+$black: black;
+$red: red;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto Mono;
+  text-decoration: none;
+}
+
+body {
+    text-align: center;
+    background-image: url("../images/nebula-1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: $white;
+  }

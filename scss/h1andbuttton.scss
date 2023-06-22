@@ -1,0 +1,50 @@
+h1 {
+    padding: 20px;
+    transition: 0.3s;
+  }
+  
+  h1:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 0 15px;
+    width: auto;
+    height: 60px;
+    background: transparent;
+    border: 3px solid $white;
+    color: $white;
+    font-size: 1em;
+    transition: 0.3s;
+    border-radius: 20px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: $red;
+    color: $white;
+  }
+  
+  button:hover::before {
+    content: "<<";
+  }
+  
+  button:hover::after {
+    content: ">>";
+  }
+  
+  button.selected {
+    background: $red;
+    color: $white;
+  }
+  
+  button.selected::before {
+    content: "<<";
+    color: $black;
+  }
+  
+  button.selected::after {
+    content: ">>";
+    color: $black;
+  }

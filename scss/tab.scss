@@ -1,0 +1,27 @@
+.tab {
+    display: none;
+    width: 100%;
+    max-width: 1000px;
+    border: 3px solid $white;
+    margin: 20px auto;
+    background: $black;
+  
+    img {
+      height: 400px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  
+    p {
+      line-height: 30px;
+      text-align: justify;
+      padding: 10px;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+  }
+  
+  .block {
+    display: block;
+  }

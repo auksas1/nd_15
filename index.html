@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orion nebula</title>
+  <link rel="icon" type="image/x-icon" href="app/images/gulp.svg">
+  <link rel="stylesheet" href="app/css/style.css">
+</head>
+<body>
+  <h1><a href="#">Orion nebula</a></h1>
+    <div class="buttons">
+        <button onclick="changeTab(event, 'stellar')" class="selected">Stellar Nursery</button>
+        <button onclick="changeTab(event, 'visible')">Visible to the Naked Eye</button>
+        <button onclick="changeTab(event, 'trapezium')">Trapezium Cluster</button>
+    </div>
+
+    <section id="stellar" class="tab block">
+        <img src="app/images/nebula-2.jpg" alt="nebula-2">
+        <p>The Orion Nebula, also known as Messier 42 (M42), is a massive star-forming region located in the constellation of Orion. It is one of the closest stellar nurseries to Earth, approximately 1,344 light-years away. Within the nebula, there are numerous young and hot stars in various stages of formation. It serves as a remarkable laboratory for studying the processes involved in the birth and evolution of stars.</p>
+    </section>
+
+    <section id="visible" class="tab">
+        <img src="app/images/nebula-3.jpg" alt="nebula-3">
+        <p>Unlike many other nebulae that require telescopes to observe, the Orion Nebula can be seen with the naked eye from Earth. It is one of the most easily recognizable deep-sky objects in the night sky. The nebula appears as a faint, hazy patch of light just below Orion's Belt, and under dark skies, it exhibits a greenish coloration due to the presence of ionized oxygen.</p>
+    </section>
+
+    <section id="trapezium" class="tab">
+        <img src="app/images/nebula-4.jpg" alt="nebula-4">
+        <p>At the heart of the Orion Nebula lies a stunning cluster of young stars called the Trapezium Cluster. It is a tight grouping of four extremely bright stars that illuminate the surrounding gas and dust, giving the nebula its distinctive appearance. The stars in the Trapezium Cluster are only a few hundred thousand years old, making them relatively young compared to the age of our Sun. These massive stars have a profound influence on their environment, generating powerful stellar winds and intense radiation that shape the surrounding nebula.</p>
+    </section>
+  <script src="script.js"></script>
+</body>
+</html>
